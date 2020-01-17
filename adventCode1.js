@@ -131,7 +131,7 @@ const allModules = [
 
 //CALCULATION FUNCTION
 function newValues(){ 
-    //ARRAY RESULTATS
+    //ARRAY RESULTS
     const allNewValues = [];
     //CALCULATE NEEDED FUEL
     function calculFuel(a){
@@ -144,7 +144,7 @@ function newValues(){
     const sumAllValues = allNewValues.reduce(function(total, current){
        return total + current;
     });
-    //SHOW RESULTAT
+    //SHOW RESULT
     console.log(sumAllValues);   
 }
 
